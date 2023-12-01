@@ -1,0 +1,103 @@
+
+.main-section {
+    margin-top: 50px; 
+    background: #FEF4F3;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+  
+
+  h4.playhead, p.palypara, h2.headh2 {
+    line-height:2.2;
+  }
+  .col-7, .col-5 {
+    padding: 15px; 
+  }
+  
+  .playhead, .palypara, .headh2, .cta1 {
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  img.playstation {
+    max-width: 100%;
+    height: auto; 
+  }
+
+  button.cta1 {
+    background-color: #e44d26; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  
+  button.cta1:hover {
+    background-color: #c1351d;
+  }
+  
+
+  img.playstation:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+  }
+
+
+
+
+
+  
+  /* Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767px) {
+    .main-section {
+      flex-direction: column; /* Stack the content vertically on small devices */
+    }
+  
+    .col-7, .col-5 {
+      width: 100%; /* Each column takes full width on small devices */
+    }
+  
+    h4.playhead {
+      font-size: 24px; /* Adjust font size for smaller screens */
+    }
+  
+    p.palypara {
+      font-size: 14px; /* Adjust paragraph font size for smaller screens */
+    }
+  
+    h2.headh2 {
+      font-size: 30px; /* Adjust price font size for smaller screens */
+    }
+  
+    button.cta1 {
+      width: 100px; /* Adjust button size for smaller screens */
+      margin: 10px 0; /* Add margin above and below the button */
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .col-7 {
+      flex: 0 0 58.333333%; /* 7/12th of the container */
+    }
+  
+    .col-5 {
+      flex: 0 0 41.666667%; /* 5/12th of the container */
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    /* Adjust font sizes and spacing as needed */
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* Adjust font sizes and spacing as needed */
+  }
+  

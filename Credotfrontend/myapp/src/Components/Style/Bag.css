@@ -1,0 +1,77 @@
+.bag-sec {
+    margin-top: 60px;
+  }
+  
+  .bag-sec h2 {
+    font-family: fantasy;
+    color: darkblue;
+  }
+
+  
+
+
+
+
+
+.custom-card {
+    width: 100%; /* Default to full width for mobile */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .custom-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    background-color: #f8f9fa;
+  }
+  
+  .card-img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-img:hover {
+    transform: scale(1.1);
+  }
+  
+  .btn-primary {
+    background-color: black;
+    border-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .btn-primary:hover {
+    background-color: #333333;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive design for Tablets */
+  @media (min-width: 768px) {
+    .custom-card {
+      width: 48%; /* Adjust width for tablet screens */
+    }
+  }
+  
+  /* Responsive design for Desktops */
+  @media (min-width: 992px) {
+    .custom-card {
+      width: 31%; /* Adjust width for desktop screens */
+    }
+  }
+  
+  /* Additional styling for the container if needed */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
